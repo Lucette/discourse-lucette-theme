@@ -24,6 +24,7 @@ table.topic-list, td, th {
 }
 
 
+
 // AVATAR
 
 .topic-avatar{
@@ -44,54 +45,6 @@ table.topic-list, td, th {
     }
 }
 
-// CREATE TOPIC BUTTON
-
-#create-topic .d-button-label {
-  color: #2F2F2F;
-  box-shadow: none;
-}
-
-#create-topic:hover .d-button-label:hover {
-    color: #C29B5B;
-}
-
-// CREATE TOPIC MODAL
-
-#reply-control {
-   .grippie {
-        background: #2F2F2F;
-    }
-    .btn-primary {
-        background-color: #FC0F3B;
-        border-radius: 10px;
-        padding: 10px 15px;
-    }
-    .dropdown-select-box {
-        .dropdown-select-box-header {
-            background-color: #fff;
-        }
-    }
-    .dropdown-select-box {
-        .dropdown-select-box-header:hover {
-            background-color: #9d919d;
-        }
-    }
-    .fa-caret-down {
-        color: #fff;
-        background-color: #C29B5B;
-        opacity: 1;
-        padding: 3px;
-    }
-
-    .mini-tag-chooser-header {
-        .fa-plus {
-            color: #fff;
-            background-color: #C29B5B;
-            opacity: 1;
-            padding: 3px;
-        }
-    }
-}
 
 
 // TOPIC EXCERPT
