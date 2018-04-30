@@ -1,0 +1,144 @@
+/********** Nav Header **********/
+
+#top-navbar {
+ height:44px;
+ background-color:#FFFFFF;
+ width:100%;
+ z-index: 1001;
+ text-align: center;
+}
+
+span.left.delimiter {
+    color: #a6a6a6;
+}
+
+div#top-navbar-links {
+    display: inline-block;
+}
+
+div#top-navbar-links a {
+ color:#222;
+ font-size: 18px;
+ font-weight: lighter;
+ padding-right: 20px;
+}
+
+#navbar-left {
+ float: left;
+ margin-left: -15px;
+ padding-top: 8px;
+
+ padding-left: 30px;
+ padding-bottom: 10px;
+ background-image: url($top_logo);
+ background-repeat: no-repeat;
+}
+
+#navbar-left a {
+ font-size: 20px;
+ padding-left: 20px;
+}
+
+.topic-list, .mid-width {
+    margin-right:35% !important;
+}
+
+section > .container > .row > #list-area > .contents {
+    margin-right:35% !important;
+}
+
+table.topic-list {
+    border-collapse: separate !important;
+    border-spacing: 0 20px;
+    background-color: #FFF3F5 !important;
+    box-shadow: none !important;
+
+    thead {
+        display: none;
+    }
+    td:first-of-type {
+        width: 50%;
+    }
+    tbody > tr {
+        box-shadow: 4px 4px 11px grey;
+    }
+    tbody > tr:hover {
+        box-shadow: 1px 1px 12px #555;
+    }
+    a.title {
+        color: #2F2F2F !important;
+        font-size: 22px!important;
+    }
+}
+
+#list-area {
+    overflow-y: auto;
+    padding-right: 30px;
+}
+
+#create-topic {
+    box-shadow: none;
+    display: inline-block;
+    position:relative;
+    height: 100px;
+    width: 77px;
+    padding: 0;
+    margin: 0px 6px 6px 0px !important;
+    vertical-align: top;
+    background-image: url($plus);
+    background-repeat: no-repeat;
+    background-size: 77px 62px;
+    background-color: transparent;
+    .d-button-label {
+        position: absolute;
+        padding-top: 20px;
+        left: 10px;
+        text-align:center;
+    }
+}
+
+.list-container {
+    margin-top: 30px;
+    height: 80vh;
+    overflow-y: scroll;
+    background-image: url($characters);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+#reply-control {
+    max-width: 900px;
+    bottom: 200px;
+}
+
+.list-controls {
+        margin: 0px 0px 20px 0px;
+}
+
+// Social media
+
+.share-socials {
+
+    position: fixed;
+    top: 40%;
+    left: 13px;
+    .social-icon {
+        width: 30px;
+        height:30px;
+        margin-bottom: 5px;
+        background-size: 100%;
+        display: block;
+    }
+    .social-fb {
+            background-image: url($icon-fb);
+        }
+        .social-tw {
+            background-image: url($icon-twitter);
+        }
+        .social-gg {
+            background-image: url($icon-gg);
+        }
+        .social-insta {
+            background-image: url($icon-camera);
+        }
+}

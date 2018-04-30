@@ -1,0 +1,79 @@
+.mid-width {
+    margin-right:0%;
+}
+
+table.topic-list {
+    border-collapse: separate !important;
+    border-spacing: 0 20px;
+    background-color: #FFF3F5 !important;
+    box-shadow: none !important;
+    
+    thead {
+        display: none;
+    }
+    td:first-of-type {
+        width: 50%;
+    }
+    tbody > tr {
+        box-shadow: 4px 4px 11px grey;
+    }
+    tbody > tr:hover {
+        box-shadow: 1px 1px 12px #555;
+    }
+    a.title {
+        color: #2F2F2F !important;
+        font-size: 18px!important;
+    }
+}
+
+#create-topic {
+    box-shadow: none;
+    display: inline-block;
+    position:relative;
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin: 6px 0px 0px 0px !important;
+    vertical-align: top;
+    background-image: url($plus);
+    background-repeat: no-repeat;
+    background-size: 77px 62px;
+    background-color: transparent;
+    .d-button-label {
+        position: absolute;
+        padding-top: 20px;
+        left: 0px;
+        text-align:center;
+    }
+}
+
+#navigation-bar {
+    .drop > li > a {
+       color: #222;
+    }
+}
+
+.share-socials {
+    width: 100%;
+    background-color: #FFF3F5 !important;
+    text-align: center;
+    .social-icon {
+        display: inline-block;
+        width: 30px;
+        height:30px;
+        background-size: 100%;
+        margin: 0px 10px 20px 10px;
+    }
+    .social-fb {
+            background-image: url($icon-fb); 
+        }
+        .social-tw {
+            background-image: url($icon-twitter); 
+        }
+        .social-gg {
+            background-image: url($icon-gg); 
+        }
+        .social-insta {
+            background-image: url($icon-camera); 
+        }
+}

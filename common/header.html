@@ -1,0 +1,58 @@
+
+  
+  <script type='text/x-handlebars' data-template-name='discovery'>
+    <div class="container">
+      {{discourse-banner user=currentUser banner=site.banner}}
+    </div>
+    
+    <div class="list-controls">
+      <div class="container">
+        {{outlet "navigation-bar"}}
+      </div>
+    </div>
+    
+    {{conditional-loading-spinner condition=loading}}
+    
+    <div class="container list-container {{if loading "hidden"}}">
+      <div class="row">
+        <div class="mid-width">
+          <div id="header-list-area">
+            {{outlet "header-list-container"}}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="mid-width">
+          <div id="list-area">
+            {{plugin-outlet name="discovery-list-container-top"
+                            args=(hash category=category listLoading=loading)}}
+            {{outlet "list-container"}}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {{plugin-outlet name="discovery-below"}}
+    </script>
+    
+  <script type='text/x-handlebars' data-template-name='tags'>
+  {{#d-section pageClass="tags"}}
+  <div class="container list-container">
+    <div class="row">
+        <div id='list-area'>
+          {{outlet}}
+        </div>
+    </div>
+  </div>
+  {{/d-section}}
+  </script>
+  
+    <script type='text/x-handlebars' data-template-name='components/create-topic-button'>
+    {{#if canCreateTopic}}
+      {{d-button
+        id="create-topic"
+        action=action
+        disabled=disabled
+        label="topic.create"}}
+    {{/if}}
+    </script>
