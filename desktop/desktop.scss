@@ -76,26 +76,7 @@ table.topic-list {
     padding-right: 30px;
 }
 
-#create-topic {
-    box-shadow: none;
-    display: inline-block;
-    position:relative;
-    height: 100px;
-    width: 77px;
-    padding: 0;
-    margin: 0px 6px 6px 0px !important;
-    vertical-align: top;
-    background-image: url($plus);
-    background-repeat: no-repeat;
-    background-size: 77px 62px;
-    background-color: transparent;
-    .d-button-label {
-        position: absolute;
-        padding-top: 20px;
-        left: 10px;
-        text-align:center;
-    }
-}
+
 
 .list-container {
     margin-top: 30px;
