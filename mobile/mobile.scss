@@ -7,7 +7,7 @@ table.topic-list {
     border-spacing: 0 20px;
     background-color: #FFF3F5 !important;
     box-shadow: none !important;
-    
+
     thead {
         display: none;
     }
@@ -65,15 +65,15 @@ table.topic-list {
         margin: 0px 10px 20px 10px;
     }
     .social-fb {
-            background-image: url($icon-fb); 
+            background-image: url($icon-fb);
         }
         .social-tw {
-            background-image: url($icon-twitter); 
+            background-image: url($icon-twitter);
         }
         .social-gg {
-            background-image: url($icon-gg); 
+            background-image: url($icon-gg);
         }
         .social-insta {
-            background-image: url($icon-camera); 
+            background-image: url($icon-camera);
         }
 }
